@@ -1,0 +1,163 @@
+/*
+Description:  theme for Classes
+Author:       J Neathawk
+Author URI:   https://knighthawk0811.github.io
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl.html
+*/
+
+
+/*--------------------------------------------------------------
+selector {
+	layout(position)
+	
+	content(text)
+	
+	design(background)
+	
+	other(z-index)
+}
+----------------------------------------------------------------
+>>> COLORS:	  
+----------------------------------------------------------------
+:root {
+  --color-variable: #ffffff;
+}
+
+
+----------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Universal
+# General Elements
+# Modal Navigation
+# Navigation
+# Header Area
+# Content Area
+# Footer Area
+# Reusable Classes
+# Other
+# Templates
+# Media Queries
+
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Universal
+--------------------------------------------------------------*/
+html * {
+    box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# General Elements
+--------------------------------------------------------------*/
+body {
+	margin: 0;
+	background-color:rgb(26, 35, 78)
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+ul {
+	list-style-type: square;
+	color:rgb(130, 255, 225);
+}
+
+a:visited {
+	color:rgb(145, 207, 193)
+}
+a:hover {
+	color:dodgerblue;
+}
+a:active {
+	color:aqua;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Header Area
+--------------------------------------------------------------*/
+header {
+	background-color:rgb(15, 20, 46);
+	color:rgb(130, 255, 225);
+	padding: 20px;
+	border-width: 7px;
+	border-style: outset;
+	border-color:rgb(15, 20, 46);
+}
+
+header h1, header p {
+	text-align:center
+}
+
+nav {
+	margin:auto;
+	width:max-content;
+}
+
+/*--------------------------------------------------------------
+# Content Area
+--------------------------------------------------------------*/
+main {
+	padding: 1rem;
+	border-right: 7px solid rgb(15, 20, 46);
+	width: calc(70% - 7px);
+	float: left;
+	background-color:rgb(26, 35, 78);
+	min-height: 80vh
+}
+
+p {
+	color: rgb(120, 224, 200)
+}
+
+aside {
+	width: 30%;
+	float: right;
+}
+
+img {
+	max-width: 50%;
+	max-height: auto;
+	float:right;
+	border: 7px outset rgb(15, 20, 46);
+}
+
+/*--------------------------------------------------------------
+# Footer Area
+--------------------------------------------------------------*/
+footer {
+	color: rgb(120, 224, 200);
+	text-align: center;
+	background-color:rgb(15, 20, 46);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear:both;
+	border: 7px outset rgb(15, 20, 46);
+}
+
+/*--------------------------------------------------------------
+# Reusable Classes
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Other
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Templates
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+
